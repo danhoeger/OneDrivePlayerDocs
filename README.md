@@ -35,16 +35,16 @@ Note: if you don't have Windows Media Player installed, you can install it from 
 1. Move all your music to the Music folder in your OneDrive.
 2. Run Windows Media Player and ensure that the Music folder is added to your Library.
    - Click on "Organize" then select "Manage Libraries" -&gt; "Music" and make sure your OneDrive\\Music folder is added there.
-<img src="WMP-organize.png" alt="WMP Organize" style="width: 100%; max-width: 700px;" />
-<img src="WMP-Manage-music.png" alt="WMP Manage Music" style="width: 100%; max-width: 490px;" />
+<img src="Images/WMP-organize.png" alt="WMP Organize" style="width: 100%; max-width: 700px;" />
+<img src="Images/WMP-Manage-music.png" alt="WMP Manage Music" style="width: 100%; max-width: 700px;" />
 3. Once all the files have been loaded in Windows Media Player, select the "Play" tab at the top right.
-<img src="WMP-Playlist.png" alt="WMP Playlist" style="width: 100%; max-width: 700px;" />
+<img src="Images/WMP-Playlist.png" alt="WMP Playlist" style="width: 100%; max-width: 700px;" />
 4. Select the songs you want for the playlist and copy them to the window on the right side of the app.
 5. When you have the list the way you want it, click the "playlist" button on the upper right and select "save list as...".
-<img src="WMP-List-Options.png" alt="WMP List Options" style="width: 100%; max-width: 700px;" />
-<img src="WMP-SaveList-As.png" alt="WMP SaveList" style="width: 100%; max-width: 700px;" />
+<img src="Images/WMP-List-Options.png" alt="WMP List Options" style="width: 100%; max-width: 700px;" />
+<img src="Images/WMP-SaveList-As.png" alt="WMP SaveList" style="width: 100%; max-width: 700px;" />
 6. Change the type to "*.m3u", give it a name, and select "save".
-<img src="WMP-save-as-dialog.png" alt="WMP SaveAsDialog" style="width: 100%; max-width: 700px;" />
+<img src="Images/WMP-save-as-dialog.png" alt="WMP SaveAsDialog" style="width: 100%; max-width: 700px;" />
 
 
 
@@ -53,13 +53,13 @@ Note: if you don't have Windows Media Player installed, you can install it from 
 1. Sign in to the app:
    - Click the menu in the upper right corner of the app and select "Sign in".
    - Sign in to your Microsoft Account.
-<img src="Player-Playlists.png" alt="Player Playlists" style="width: 60%; max-width: 320px;" />
+<img src="Images/Player-Playlists.png" alt="Player Playlists" style="width: 60%; max-width: 320px;" />
 2. After signing in, you should see all your playlists listed. Select one of them.
 3. The app will automatically select the checkbox to the left when you select a playlist and then download the files to your phone.
    - This may take a long time for large playlists, so test it out with a smaller one first.
    - You will see a popup that shows "loading  1 of 8" for instance.
 4. Once loaded, you will be moved to the "tracks" tab where you can select a song to play.
-<img src="Player-Tracks-fixed.png" alt="Player Tracks" style="width: 60%; max-width: 320px;" />
+<img src="Images/Player-Tracks.png" alt="Player Tracks" style="width: 60%; max-width: 320px;" />
 5. When you select a song, it will move you to the "Player" tab.
 
 Everything else should be pretty self-explanatory. If you need to clear up space, you can "uncheck" the checkbox next to a playlist, and it will delete the files from your phone for that playlist.
@@ -69,8 +69,8 @@ When plugged into Android Auto, the app will show up as "OneDrive Player" and yo
 
 There are three screens in Android Auto:
 1. The full screen
-<img src="AndroidAuto-full-player.png" alt="AndroidAuto Full Screen" style="width: 100%; max-width: 700px;" />
+<img src="Images/AndroidAuto-full-player.png" alt="AndroidAuto Full Screen" style="width: 100%; max-width: 700px;" />
 2. The half screen
-<img src="AndroidAuto-Small-player.png" alt="AndroidAuto Half Screen" style="width: 100%; max-width: 700px;" />
+<img src="Images/AndroidAuto-Small-player.png" alt="AndroidAuto Half Screen" style="width: 100%; max-width: 700px;" />
 3. The minimized screen
-<img src="AndroidAuto-mini-player.png" alt="AndroidAuto Minimized Screen" style="width: 100%; max-width: 700px;" />
+<img src="Images/AndroidAuto-mini-player.png" alt="AndroidAuto Minimized Screen" style="width: 100%; max-width: 700px;" />
