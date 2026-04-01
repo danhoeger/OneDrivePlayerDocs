@@ -26,7 +26,9 @@ The format of the `.m3u` file should look something like this:
 
 ```
 
-This format follows the standard M3U format, which is supported by Windows Media Player. The `#EXTM3U` line indicates that this is an extended M3U file, and each song entry consists of an `#EXTINF` line followed by the relative path to the music file.  
+This format follows the standard M3U format, which is supported by Windows Media Player. The `#EXTM3U` line indicates that this is an extended M3U file, and each song entry consists of an `#EXTINF` line (formated as: `#EXTINF:{length in seconds},{title}-{artist}`) followed on the next line by the relative path to the music file.  
+Be careful to use relative paths to the music files as shown in the example above, otherwise the app won't be able to find the files when it tries to download them to your phone.
+Also, if you have special characters in your file paths, such as `é`, `ö` or `ü`, etc., make sure your files is saved with UTF-8 encoding, otherwise the app may not be able to read the file paths correctly and won't be able to find the files to download them to your phone. (most text editors will save in UTF-8 by default, but just be sure to check if you have special characters in your file paths).
 For more information on the M3U format see [this Wikipedia article](https://en.wikipedia.org/wiki/M3U).
 
 ## Steps to Create a Playlist with Windows Media Player for Windows
@@ -46,7 +48,10 @@ Note: if you don't have Windows Media Player installed, you can install it from 
 6. Change the type to "*.m3u", give it a name, and select "save".
 <img src="Images/WMP-save-as-dialog.png" alt="WMP SaveAsDialog" style="width: 100%; max-width: 700px;" />
 
+Note: If you have a large playlist, it may take a while for the app to download all the files to your phone, so you may want to start with a smaller playlist to test it out first.
 
+Note: Windows Media Player by default saves M3U files with only the filename on the #EXTINF line, so you may want to edit the M3U file in a text editor to include the artist and title in the #EXTINF line as shown in the example above, otherwise the app will just show the filename without the artist and title information.
+I've created a PowerShell script called [Update-M3U.ps1](Scripts/Update-M3U.ps1) that can automate this process of updating the #EXTINF lines with the correct metadata extracted from the audio files, so you don't have to do it manually. You can find instructions on how to use that script in the [Scripts/README-Update-M3U.md](Scripts/README-Update-M3U.md) file.
 
 ## Running the App
 
