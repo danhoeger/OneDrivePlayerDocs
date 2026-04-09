@@ -72,6 +72,23 @@ Everything else should be pretty self-explanatory. If you need to clear up space
 ## Android Auto screens
 When plugged into Android Auto, the app will show up as "OneDrive Player" and you can select it to see your playlists and tracks. You can control play/pause and skip tracks from the Android Auto interface.
 
+### Shuffle and track navigation behavior
+
+- **Shuffle play** can be toggled from either:
+  - the phone app menu (`Shuffle play`), or
+  - the Android Auto player shuffle button.
+- Shuffle state is synchronized between phone and Android Auto.
+- The Android Auto shuffle icon changes by state:
+  - `rotate` icon when shuffle is enabled
+  - `sort` icon when shuffle is disabled
+
+### Next / Previous at playlist boundaries
+
+Track navigation now wraps at playlist boundaries on both phone and Android Auto:
+
+- **Next** on the last track goes to the **first** track.
+- **Previous** on the first track goes to the **last** track.
+
 There are three screens in Android Auto:
 1. The full screen
 <img src="Images/AndroidAuto-full-player.png" alt="AndroidAuto Full Screen" style="width: 100%; max-width: 700px;" />
