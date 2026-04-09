@@ -1,5 +1,8 @@
 # OneDrivePlayer Documentation
 
+## signing up to test the app before public release: 
+please use [this link](https://play.google.com/apps/testing/com.hoegersoftware.onedriveplayer)
+
 ## Creating a Playlist
 
 For best results, create an M3U playlist with Windows Media Player on your computer and save all your music files to your "Music" folder under your OneDrive folder. Then save the playlist to a "Playlists" folder under that Music folder. For example, my playlists are saved to `C:\\Users\\dan.hoeger\\OneDrive\\Music\\Playlists`.
