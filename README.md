@@ -1,7 +1,7 @@
 # OneDrivePlayer Documentation
 
 ## signing up to test the app before public release: 
-please use [this link](https://play.google.com/apps/testing/com.hoegersoftware.onedriveplayer)
+please use [this link](https://play.google.com/apps/testing/com.hoegersoftware.onedriveplayer)  for signing up to be a "Beta" tester
 
 ## Creating a Playlist
 
