@@ -55,10 +55,8 @@ If you don't already have .m3u playlists files in your OneDrive account please s
 - You can switch between downloaded playlists and play local tracks without needing a network connection.
 - If the network drops, the app stays offline until you manually sign in again from the menu.
 
-Everything else should be pretty self-explanatory. If you need to clear up space, you can "uncheck" the checkbox next to a playlist, and it will delete the files from your phone for that playlist.  The app will prompt you to confirm before deleting the files.
+<img src="Images/Player-Playlists-offline.png" alt="Player Tracks" style="width: 60%; max-width: 320px;" />
 
-## Android Auto screens
-When plugged into Android Auto, the app will show up as "OneDrive Player" and you can select it to see your playlists and tracks. You can control play/pause and skip tracks from the Android Auto interface.
 
 ### Shuffle and track navigation behavior
 
@@ -81,6 +79,13 @@ Track navigation now wraps at playlist boundaries on both phone and Android Auto
 
 - **Next** on the last track goes to the **first** track.
 - **Previous** on the first track goes to the **last** track.
+
+### Freeing up Space used by the app
+If you need to clear up space, you can "uncheck" the checkbox next to a playlist, and it will delete the files from your phone for that playlist. (Unless they are still part of other playlists that are still downloaded)  The app will prompt you to confirm before deleting the files.
+
+## Android Auto screens
+When plugged into Android Auto, the app will show up as "OneDrive Player" and you can select it to see your playlists and tracks. You can control play/pause and skip tracks from the Android Auto interface.
+
 
 There are three screens in Android Auto:
 1. The full screen
